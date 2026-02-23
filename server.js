@@ -24,6 +24,7 @@ app.use('/api/testimonials', require('./routes/testimonial.routes'));
 app.use('/api/gallery', require('./routes/gallery.routes'));
 app.use('/api/contact', require('./routes/contact.routes'));
 app.use('/api/team', require('./routes/team.routes'));
+app.use('/api/franchise', require('./routes/franchise.routes'));
 app.use('/api/upload', require('./routes/upload.routes'));
 
 // Database Connection and Server Start
