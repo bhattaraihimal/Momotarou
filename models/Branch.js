@@ -9,7 +9,8 @@ const BranchSchema = new mongoose.Schema({
   email: { type: String },
   description: { type: String },
   image: { type: String },
-  sideImage: { type: String },
+  images: [{ type: String }],
+  galleryDescription: { type: String },
   slug: { type: String, unique: true, sparse: true }
 }, { timestamps: true });
 
