@@ -6,8 +6,7 @@ const MenuSchema = new mongoose.Schema({
   price: { type: Number, required: true },
   category: { 
     type: String, 
-    required: true, 
-    enum: ['Starters', 'Sushi', 'Ramen', 'Main Course', 'Drinks', 'Desserts'] 
+    required: true
   },
   image: { type: String }, // URL to image
   available: { type: Boolean, default: true }
